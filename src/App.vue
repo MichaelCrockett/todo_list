@@ -27,8 +27,7 @@ export default {
     },
 
     addTodo(newTodo) {
-      const { title, completed } = newTodo;
-      axios.post('https://jsonplaceholder.typicode.com/todos', {
+      const { title, completed } = newTodo; axios.post('https://jsonplaceholder.typicode.com/todos', {
         title,
         completed
       })

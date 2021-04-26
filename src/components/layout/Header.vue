@@ -1,6 +1,6 @@
 <template lang="html">
   <header class="header">
-    <h1>Todo List</h1>
+    <h1>GSD - Get Stuff Done</h1>
   </header>
 </template>
 
